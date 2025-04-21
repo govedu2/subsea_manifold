@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifold</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            background-image: url('bg1.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #f0f0f0;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 40px;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 1;
+            width: 80%;
+            max-width: 900px;
+            border-radius: 20px;
+            text-align: left;
+            margin-bottom: 80px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 2.8em;
+            font-weight: 600;
+            color: #bb86fc;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: -1px;
+            border-bottom: 2px solid #bb86fc;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+
+        .side-btn-container {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 80px;
+            background: rgba(39, 39, 39, 0.8);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            color: #bb86fc;
+            z-index: 2;
+        }
+
+        .side-btn-container:hover {
+            transform: translateY(-50%) scale(1.05);
+            box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.5), -7px -7px 14px rgba(0, 0, 0, 0.5);
+        }
+
+        .side-btn-container.left {
+            left: 20px;
+        }
+
+        .content-container p,
+        .content-container ul {
+            width: 100%;
+            margin: 25px 0;
+            line-height: 1.8;
+            font-size: 1.15em;
+            color: #e0e0e0;
+        }
+
+        .content-container ul {
+            padding-left: 35px;
+            list-style-type: disc;
+        }
+
+        .content-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 30px 0;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .content-container strong {
+            color: #ff8a80;
+            font-weight: 600;
+        }
+
+        .content-container section {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-container">
+        <h1>Manifold</h1>
+        <section>
+            <h2>1. Introduction</h2>
+            <p>
+                A subsea manifold is an essential component in offshore oil and gas production, designed to direct and control the flow of hydrocarbons from multiple subsea wells to a processing facility. It optimizes production, enhances field development, and supports flow assurance strategies.
+            </p>
+            <img src="Subsea-production-system-overview-2.png" alt="">
+    
+            <h2>2. Components of a Subsea Manifold</h2>
+            <ul>
+                <li><strong>Valves:</strong> Control the flow of oil, gas, and water.</li>
+                <li><strong>Piping and Headers:</strong> Distribute fluids from multiple wells.</li>
+                <li><strong>Flow Meters:</strong> Measure production rates and detect anomalies.</li>
+                <li><strong>Control Modules:</strong> Enable remote operation and monitoring.</li>
+                <li><strong>Connection Points:</strong> Interface with subsea flowlines and umbilicals.</li>
+            </ul>
+    
+            <h2>3. Types of Subsea Manifolds</h2>
+            <ul>
+                <li><strong>Production Manifold:</strong> Gathers hydrocarbons from multiple wells and directs them to the surface.</li>
+                <li><strong>Injection Manifold:</strong> Distributes gas or water injection for enhanced oil recovery (EOR).</li>
+                <li><strong>Test Manifold:</strong> Allows selective well testing to assess individual well performance.</li>
+                <li><strong>Distribution Manifold:</strong> Regulates chemicals and hydraulic fluids to various subsea components.</li>
+            </ul>
+    
+            <h2>4. Functions of a Subsea Manifold</h2>
+            <ul>
+                <li><strong>Production Optimization:</strong> Efficiently manages flow from multiple wells.</li>
+                <li><strong>Pressure Balancing:</strong> Maintains stability in the production system.</li>
+                <li><strong>Flow Assurance:</strong> Prevents blockages due to hydrate formation and wax deposition.</li>
+                <li><strong>Remote Operation:</strong> Enables automated control through subsea control modules.</li>
+                <li><strong>Improved Field Development:</strong> Reduces the need for individual pipelines, lowering costs.</li>
+            </ul>
+    
+            <h2>5. Installation and Maintenance</h2>
+            <ul>
+                <li><strong>Subsea Engineering Design:</strong> Tailored to specific field requirements.</li>
+                <li><strong>Installation via Vessels and ROVs:</strong> Ensuring precise placement on the seabed.</li>
+                <li><strong>Integration with Subsea Systems:</strong> Connecting to flowlines, umbilicals, and control networks.</li>
+                <li><strong>Routine Inspections and Interventions:</strong> Conducted using remotely operated vehicles (ROVs) and advanced monitoring systems.</li>
+            </ul>
+    
+            <h2>6. Challenges and Considerations</h2>
+            <ul>
+                <li><strong>Harsh Deepwater Conditions:</strong> Requires robust materials to withstand extreme pressure and temperature.</li>
+                <li><strong>Flow Assurance Issues:</strong> Addressing hydrate, wax, and asphaltene formation.</li>
+                <li><strong>Remote Accessibility:</strong> Limits direct human intervention, increasing reliance on automation.</li>
+                <li><strong>Corrosion and Structural Integrity:</strong> Essential for long-term reliability.</li>
+            </ul>
+    
+            <h2>7. Conclusion</h2>
+            <p>
+                Subsea manifolds play a vital role in offshore hydrocarbon production by enhancing efficiency, reducing infrastructure costs, and enabling remote operations. Advancements in subsea technology continue to improve their performance, reliability, and adaptability for future deepwater developments.
+            </p>
+        </section>
+    </div>
+    
+
+    <a href="page3.html" class="side-btn-container left">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+</body>
+
+</html>
